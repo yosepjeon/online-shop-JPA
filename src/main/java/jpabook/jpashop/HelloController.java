@@ -10,6 +10,7 @@ public class HelloController {
 	public String hello(Model model) {
 		model.addAttribute("data","hello!!!");
 		
+		// hello.html을 띄워라
 		return "hello";
 	}
 }
